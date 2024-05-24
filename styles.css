@@ -1,0 +1,71 @@
+body {
+	background: black;
+}
+
+/* {
+	border: 1px dashed rgb(255, 0, 0);
+	min-height: 10px;
+} */
+
+p {
+	color: rgb(0, 0, 0);
+	font-family: "Sedan SC", serif;
+}
+
+.postcard {
+	background-color: white;
+	width: 430px;
+	height: 300px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgb(75, 75, 75);
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 1px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(166, 166, 167);
+	padding: 1px;
+	border-radius: 5px;
+	border-color: rgb(9, 6, 206);
+}
+
+button:hover {
+	color: white;
+}
